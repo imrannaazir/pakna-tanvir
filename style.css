@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.welcome-section{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    padding: 2%;
+    margin: 5%;
+    margin-top: 0%;
+    
+}
+div img{
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+}
+.orange-text{
+    color: orange;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    }
+    .welcome-section{
+        background-image: url(./top-banner.png);
+        background-repeat: no-repeat;
+    }
+    p{
+        text-align: justify;
+    }
+#second-sec{
+    background-image: url(./dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.details-div{
+    display: flex;
+}
+.details-section{
+    display: flex;
+
+}
+.box-style{
+    padding: 2%;
+    padding-top: 0%;
+    margin: 5%;
+    width: 40%;
+    box-shadow: gray 10px 10px 40px;
+
+}
+#bike-border{
+    border-left:5px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#inti-border{
+    border-left:5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
+}
